@@ -1,8 +1,8 @@
-### Assignment
+### Mini Project - Probability Calculator
 
 Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. What is the probability that a random draw of 4 balls will contain at least 1 red ball and 2 green balls? While it would be possible to calculate the probability using advanced mathematics, an easier way is to write a program to perform a large number of experiments to estimate an approximate probability.
 
-For this project, you will write a program to determine the approximate probability of drawing certain balls randomly from a hat. 
+For this project, we will write a program to determine the approximate probability of drawing certain balls randomly from a hat. 
 
 First, create a `Hat` class in `prob_calculator.py`. The class should take a variable number of arguments that specify the number of balls of each color that are in the hat. For example, a class object could be created in any of these ways:
 ```
@@ -39,14 +39,10 @@ Since this is based on random draws, the probability will be slightly different 
 
 *Hint: Consider using the modules that are already imported at the top of `prob_calculator.py`.*
 
-### Development
-
-Write your code in `prob_calculator.py`. For development, you can use `main.py` to test your code. Click the "run" button and `main.py` will run.
-
 ### Testing 
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
+The unit tests for this project are in `test_module.py`. The tests will run automatically whenever the `main.py` gets executed.
 
-### Submitting
+### Note
 
-Copy your project's URL and submit it to freeCodeCamp.
+This project is done under @freecodecamps Scientific Computing with Python Certification.
